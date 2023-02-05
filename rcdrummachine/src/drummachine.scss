@@ -1,0 +1,23 @@
+.backgroundWrapper {
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    border: 2px solid green;
+}
+
+.flexWrapper {
+    width: 100%;
+    overflow: hidden;
+    height: calc(100vh - 4.5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid purple;
+}
+
+#drum-machine {
+    border: 2px solid red;
+    width: 70vw;
+    height: 40vh;
+
+}
