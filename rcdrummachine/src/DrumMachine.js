@@ -1,6 +1,6 @@
 import React from "react";
 import "./drummachine.min.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function DrumMachine() {
   const [currSample, setSample] = useState("-");
@@ -22,6 +22,14 @@ function DrumMachine() {
     document.getElementById(sampID).currentTime = 0;
     document.getElementById(sampID).play();
   };
+
+  React.useEffect(() => {
+    document.addEventListener("keydown", (press) => {
+      if (sampleGrid[press.key.toUpperCase()]) {
+        handleClick(press.key.toUpperCase());
+      }
+    });
+  }, []);
 
   return (
     <div className="backgroundWrapper">
