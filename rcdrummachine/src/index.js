@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './reset.css';
+import './drummachine.min.css';
 import DrumMachine from './DrumMachine';
 
 
