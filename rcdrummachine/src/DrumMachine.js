@@ -6,6 +6,9 @@ function DrumMachine() {
     <div className="backgroundWrapper">
       <div className="flexWrapper">
         <div id="drum-machine">
+          <div id="display">
+            
+          </div>
         </div>
       </div>
     </div>
