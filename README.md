@@ -1,2 +1,3 @@
-# jsDrumMachine
- 4x4 Grid Drum Machine built in JavaScript and Bootstrap
+## jsDrumMachine
+
+Simple Drum Machine built with JavaScript, SCSS and Bootstrap. Built as examination assignment for freeCodeCamp in order to obtain the 'Front End Development' Certification.
