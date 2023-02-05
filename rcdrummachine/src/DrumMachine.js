@@ -21,14 +21,18 @@ function DrumMachine() {
     setSample(sampleGrid[sampID]);
     document.getElementById(sampID).currentTime = 0;
     document.getElementById(sampID).play();
+    
+    setTimeout(() => {
+
+     }, 100);
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     document.addEventListener("keydown", (press) => {
       if (sampleGrid[press.key.toUpperCase()]) {
         handleClick(press.key.toUpperCase());
       }
-    });
+    }); // eslint-disable-next-line
   }, []);
 
   return (

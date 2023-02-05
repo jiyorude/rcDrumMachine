@@ -61,6 +61,17 @@ button {
     background-color: $black-three;
     color: $white-four;
 }
+
+button:active {
+    background-color: $main-col;
+    color: $black-three;
+}
+
+.press {
+    background-color: $main-col;
+    color: $black-three;
+}
+
 .row {
     height: 33.33%;
 }
